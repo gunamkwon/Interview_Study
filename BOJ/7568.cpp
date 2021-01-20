@@ -5,13 +5,13 @@
 typedef struct {
 	int x;
 	int y;
-}Body;
+}BODY;
 
 int main()
 {
 	int N, i;
 	scanf("%d", &N);
-	Body* body = (Body*)malloc(sizeof(Body) * N);
+	BODY* body = (BODY*)malloc(sizeof(BODY) * N);
 	for (i = 0; i < N; i++) {
 		scanf("%d %d", &body[i].x, &body[i].y);
 	}
