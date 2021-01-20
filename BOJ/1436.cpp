@@ -33,6 +33,7 @@ int main()
 }
 
 /*
+* 0ms - Solution!
 #include<stdio.h>
 
 int  process(int index, int number)
