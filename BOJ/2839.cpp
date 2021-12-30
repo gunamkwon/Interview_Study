@@ -28,5 +28,5 @@ int main()
 		ans++;
 	}
 	cout << -1 << endl;
-
+	
 }
