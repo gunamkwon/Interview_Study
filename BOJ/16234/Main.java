@@ -1,7 +1,38 @@
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
+
+class Main
+{
+    int N,M;
+
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        N = sc.nextInt();
+        ArrayList<Integer> myList = new ArrayList<>();
+
+        for(int i=0;i<N;i++){
+            myList.add(sc.nextInt());
+        }
+
+        M = sc.nextInt();
+        ArrayList<Integer> targetList = new ArrayList<>();
+        for(int i=0;i<N;i++){
+            targetList.add(sc.e)
+        }
+
+        System.out.println(moveDays);
+    }
+
+}
+
+
+import java.util.LinkedList;
+        import java.util.Queue;
+        import java.util.Scanner;
 
 class Main
 {
